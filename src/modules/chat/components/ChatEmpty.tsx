@@ -8,7 +8,7 @@ const EXAMPLE_QUESTIONS = [
   "Qual é o limite diário de TED?",
   "Como funciona o fluxo de aprovação de pedidos?",
   "O que acontece quando uma transação PIX falha?",
-  "Quais permissoes podem alterar senha de um usuario no backoffice ?",
+  "Quais permissões podem alterar senha de um usuario no backoffice ?",
 ];
 
 export function ChatEmpty({ onExampleClick }: ChatEmptyProps) {
