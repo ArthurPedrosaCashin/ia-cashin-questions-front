@@ -1,15 +1,15 @@
-'use client'
+"use client";
 
 interface ChatEmptyProps {
-  onExampleClick: (question: string) => void
+  onExampleClick: (question: string) => void;
 }
 
 const EXAMPLE_QUESTIONS = [
-  'Qual é o limite diário de TED?',
-  'Como funciona o fluxo de aprovação de pedidos?',
-  'O que acontece quando uma transação PIX falha?',
-  'Quais são os tipos de plano de empresa?',
-]
+  "Qual é o limite diário de TED?",
+  "Como funciona o fluxo de aprovação de pedidos?",
+  "O que acontece quando uma transação PIX falha?",
+  "Quais permissoes podem alterar senha de um usuario no backoffice ?",
+];
 
 export function ChatEmpty({ onExampleClick }: ChatEmptyProps) {
   return (
@@ -58,5 +58,5 @@ export function ChatEmpty({ onExampleClick }: ChatEmptyProps) {
         ))}
       </div>
     </div>
-  )
+  );
 }
